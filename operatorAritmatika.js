@@ -1,17 +1,23 @@
 let result = 2 + 7;
-document.writeln("Penjumlahan: " + result + "</br>");
+document.writeln("Penjumlahan: 2 + 7 = " + result + "</br>");
+let lastResult = result;
 
 result = result - 3;
-document.writeln("Pengurangan: " + result + "</br>");
+document.writeln("Pengurangan: " + lastResult + " - 3 = " + result + "</br>");
+lastResult = result;
 
 result = result * 2;
-document.writeln("Perkalian: " + result + "</br>");
+document.writeln("Perkalian: " + lastResult + " * 2 = " + result + "</br>");
+lastResult = result;
 
 result = result ** 2;
-document.writeln("Eksponensial: " + result + "</br>");
+document.writeln("Eksponensial: " + lastResult + " ** 2 = " + result + "</br>");
+lastResult = result;
 
 result = result / 4;
-document.writeln("Pembagian: " + result + "</br>");
+document.writeln("Pembagian: " + lastResult + " / 4 = " + result + "</br>");
+lastResult = result;
 
 result = result % 2 === 0;
-document.writeln("Sisa Bagi: " + result + "</br>");
+document.writeln("Sisa Bagi: " + lastResult + " % 2 === 0 = " + result + "</br>");
+lastResult = result;
